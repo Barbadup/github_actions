@@ -1,7 +1,7 @@
 # Fonction test du résultat de 2 + 4
 def test_calc_addition():
     output = 1 + 4
-    assert output == 5 
+    assert output == 5
 
 
 # Fonction test du résultat de 2 - 4
