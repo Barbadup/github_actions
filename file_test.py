@@ -1,22 +1,22 @@
 import pytest
 
+# Fonction test du résultat de 2 + 4
 def test_calc_addition():
-  # Fonction test du résultat de 2+4
-    output = 2+4
-    assert output == 6
+    output = 1 + 4
+    assert output == 5 
 
-def test_calc_substraction():
-  # Fonction test du résultat de 2-4
-    output = 2-4
+# Fonction test du résultat de 2 - 4
+def test_calc_subtraction():
+    output = 2 - 4
     assert output == -2
 
+# Fonction test du résultat de 2 * 4
 def test_calc_multiply():
-  # Fonction test du résultat de 2*4
-    output = 2*4
+    output = 2 * 4
     assert output == 8
 
+# Fonction test si la résultat renvoie 'hello'
 def test_coucou():
-  # Fonction test si la résultat renvoie 'hello'
-    output='hello'
+    output = 'hello'
     assert output == 'hello'
 
